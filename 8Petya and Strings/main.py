@@ -1,0 +1,11 @@
+print("XD")
+a=input("")
+b=input("")
+al=a.lower()
+bl=b.lower()
+if(al>bl):
+    print("1")
+elif(bl>al):
+    print("-1")
+elif(al==bl):
+    print("0")
